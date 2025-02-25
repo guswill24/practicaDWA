@@ -52,5 +52,7 @@ define ('SQLITE', 'sqlite');
 $_DVWA['SQLI_DB'] = getenv('SQLI_DB') ?: MYSQL;
 #$_DVWA['SQLI_DB'] = SQLITE;
 #$_DVWA['SQLITE_DB'] = 'sqli.db';
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE & ~E_WARNING);
+ini_set('display_errors', '0');
 
 ?>
