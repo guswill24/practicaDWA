@@ -21,6 +21,7 @@ $_DVWA[ 'db_user' ]     = getenv('DB_USER') ?: 'root';
 $_DVWA[ 'db_password' ] = getenv('DB_PASSWORD') ?: 'wXfkfXHcGWjebNZilDLxEQuZiOgnorFN';
 $_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '3306';
 
+
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
 #   You'll need to generate your own keys at: https://www.google.com/recaptcha/admin
